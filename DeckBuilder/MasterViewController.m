@@ -8,10 +8,15 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "AFNetworking.h"
+#import "Card.h"
+#import "CardCollection.h"
 
 @interface MasterViewController ()
 
 @end
+
+
 
 @implementation MasterViewController
 
@@ -26,6 +31,22 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:@"https://api.deckbrew.com/mtg/cards/typeahead?q=S"
+      parameters:nil
+         success:^(AFHTTPRequestOperation *operation, id responseObject) {
+             NSError* err = nil;
+             
+             
+//             NSLog(@"JSON: %@",);
+
+             //
+         } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+             NSLog(@"Error: %@", error);
+         }];
+    
+ 
 }
 
 - (void)didReceiveMemoryWarning {

@@ -25,7 +25,7 @@
 
 
 
-@property (assign, nonatomic) BOOL isInEurope;
+
 
 @end
 
