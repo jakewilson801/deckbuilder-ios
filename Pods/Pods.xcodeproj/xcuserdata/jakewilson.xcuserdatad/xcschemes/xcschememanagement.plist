@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-DeckBuilder-AFNetworking-RACExtensions.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DeckBuilder-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -26,6 +31,32 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>294DD5824311FDA292D017D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4BF82F795EC7B1F9B83434BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A33222E0727F5667C1C68B81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4FDDE2A0662D17CD26B0E52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDAA1835369CAA5493FC10C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

@@ -8,6 +8,7 @@ target "DeckBuilder" do
 pod 'JSONModel'
 pod "AFNetworking", "~> 2.0"
 pod 'ReactiveCocoa'
+pod 'AFNetworking-RACExtensions', :git => 'https://github.com/knshiro/AFNetworking-RACExtensions.git'
 end
 
 target "DeckBuilderTests" do

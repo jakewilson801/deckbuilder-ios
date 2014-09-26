@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Jake Wilson. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Card.h"
 
+@implementation Card
 
+@end
