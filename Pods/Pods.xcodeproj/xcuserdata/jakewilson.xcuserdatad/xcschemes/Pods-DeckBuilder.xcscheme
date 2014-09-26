@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B08757EC0FEF6B47CDE91D5E"
+               BlueprintIdentifier = "34C67CF4E4DAE9FBF9C10F39"
                BuildableName = "libPods-DeckBuilder.a"
                BlueprintName = "Pods-DeckBuilder"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -178,6 +178,7 @@
 				<string>AFFFE74119D55BE400BF8BB7</string>
 				<string>AFFFE73E19D55BE300BF8BB7</string>
 				<string>AFFFE74419D55BE400BF8BB7</string>
+				<string>AFFFE76919D564CF00BF8BB7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
@@ -270,6 +271,7 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>AFFFE76719D564AA00BF8BB7</string>
 				<string>AFFFE73F19D55BE300BF8BB7</string>
 				<string>AFFFE74019D55BE400BF8BB7</string>
 				<string>AFFFE74519D55BE400BF8BB7</string>
@@ -845,6 +847,8 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
@@ -858,6 +862,8 @@
 				<string>AppIcon</string>
 				<key>INFOPLIST_FILE</key>
 				<string>DeckBuilder/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -878,6 +884,8 @@
 				<string>AppIcon</string>
 				<key>INFOPLIST_FILE</key>
 				<string>DeckBuilder/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -897,6 +905,8 @@
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
@@ -954,6 +964,39 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>AFFFE76719D564AA00BF8BB7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AFFFE76819D564CF00BF8BB7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>data</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AFFFE76819D564CF00BF8BB7</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Card.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AFFFE76919D564CF00BF8BB7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AFFFE76819D564CF00BF8BB7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>C8CCB8450D2056D34DDBDBC5</key>
 		<dict>
